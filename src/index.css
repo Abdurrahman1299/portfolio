@@ -1,0 +1,12 @@
+* {
+  transition: all 0.4s;
+  font-family: -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
