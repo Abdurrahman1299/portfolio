@@ -64,11 +64,13 @@
 .landingSection {
   padding-top: 5rem;
   padding-bottom: 3rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 0.7rem;
+  gap: 0.45rem;
   background-color: #2a4365;
   min-height: 100vh;
 }
@@ -78,21 +80,22 @@
   }
 }
 .avatar {
-  height: 13rem;
-  width: 13rem;
+  height: 13.5rem;
+  width: 13.5rem;
   border-radius: 50%;
   box-shadow: 2px 5px 20px #272727;
 }
 .greeting {
   color: white;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 .text {
   color: white;
-  font-size: 3.7rem;
+  font-size: 3rem;
   font-weight: bold;
   text-align: center;
+  letter-spacing: 2px;
 }
 .specialText {
   background-color: #4571ae;
@@ -150,10 +153,10 @@
 .projectImage {
   object-fit: cover;
   width: 100%;
-  height: 300px;
+  height: 350px;
 }
 .textContainer {
-  padding: 2rem;
+  padding: 1rem;
 }
 .projectTitle {
   font-weight: bold;
@@ -167,7 +170,7 @@
   font-size: 1rem;
   position: absolute;
   bottom: 1rem;
-  left: 2rem;
+  left: 1rem;
   background-color: #18181b;
   color: white;
   font-weight: bold;
@@ -175,6 +178,6 @@
   border-radius: 0.5rem;
 }
 .exploreButton:hover {
-  color: #14532d;
+  background-color: #3e6293;
 }
 /* end project */

@@ -10,7 +10,7 @@ export default function LandingSection() {
       <p className={styles.greeting}>Hello, I am Abdurrahman</p>
       <br />
       <p className={styles.text}>
-        A Cross-Platform Mobile Application Developer, Specialized in{" "}
+        A Cross-Platform Mobile App Developer, Specialized in{" "}
         <span className={styles.specialText}>React Native</span>.
       </p>
     </div>
